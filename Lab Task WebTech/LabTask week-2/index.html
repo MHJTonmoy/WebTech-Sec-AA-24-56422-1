@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Member Profile & Registration</title>
+    
+    <link rel="icon" href="for html.PNG">
+</head>
+<body>
+
+    
+    <h1>City Central Library</h1>
+
+    
+    
+    <p>Welcome to the City Central Library member portal.</p>
+
+    
+    <p><b>Bold Text:</b> Please read the instructions carefully.</p>
+    <p><i>Italic Text:</i> This is an important notice for all members.</p>
+    <div>This is a Block element (div).</div>
+    <span>This is an Inline element (span).</span>
+
+    
+    <p>Visit our <a href="https://www.google.com" target="_blank">Official Website</a> for more details.</p>
+
+    
+    <img src="for html.PNG" alt="Library Building" width="400">
+
+    
+
+   
+    <h2>Member Directory</h2>
+    <table border="1">
+        <tr>
+            <th>Member ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Image</th>
+        </tr>
+        <tr>
+            <td>9981</td>
+            <td>Tonmoy</td>
+            <td>tonmoy@gmail.com</td>
+            <td><img src="for html.PNG" width="50" alt="Tonmoy"></td>
+        </tr>
+       
+    </table>
+
+    
+
+    
+    <h2>Membership Registration Form</h2>
+    <form action="" method="GET">
+        
+       
+        <label>Name:</label><br>
+        <input type="text" name="name" required><br><br>
+
+       
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+
+       
+        <label>Password:</label><br>
+        <input type="password" name="password" required><br><br>
+
+      
+        <label>Age:</label><br>
+        <input type="number" name="age"><br><br>
+
+       
+        <label>Date of Birth:</label><br>
+        <input type="date" name="dob"><br><br>
+
+       
+        <label>Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female<br><br>
+
+        
+        <label>Membership Type:</label><br>
+        <select name="membership" required>
+            <option value="">--Select--</option>
+            <option value="Student">Student</option>
+            <option value="Basic">Basic</option>
+            <option value="Premium">Premium</option>
+        </select><br><br>
+
+        <!-- File Upload -->
+        <label>Upload Profile Picture:</label><br>
+        <input type="file" name="profile_pic"><br><br>
+
+        <!-- Address (Textarea) -->
+        <label>Address:</label><br>
+        <textarea name="address" rows="4" cols="50"></textarea><br><br>
+
+        <!-- Terms Checkbox -->
+        <input type="checkbox" name="terms" required> I agree to the Terms and Conditions<br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" >
+
+    </form>
+
+
+
+</body>
+</html>
